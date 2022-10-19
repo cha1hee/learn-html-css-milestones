@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Anatomy of an HTML Tag</title>
+  </head>
+  <body>
+    <h1>Disecting the Snippet</h1>
+    <pre><span class="pl-kos">&lt;</span><span class="pl-ent">p</span><span class="pl-kos">&gt;</span>
+  Want to search the web?
+  Try <span class="pl-kos">&lt;</span><span class="pl-ent">a</span> <span class="pl-c1">href</span>="<span class="pl-s">https://google.com</span>" <span class="pl-c1">id</span>="<span class="pl-s">the-best-link</span>" <span class="pl-c1">class</span>="<span class="pl-s">banana</span>"  <span class="pl-c1">target</span>="<span class="pl-s">_blank</span>"<span class="pl-kos">&gt;</span>Google<span class="pl-kos">&lt;/</span><span class="pl-ent">a</span><span class="pl-kos">&gt;</span>!
+<span class="pl-kos">&lt;/</span><span class="pl-ent">p</span><span class="pl-kos">&gt;</span></pre>
+
+    <h2><span class="pl-kos">&lt;</span><span class="pl-ent">p</span><span class="pl-kos">&gt;</span></h2>
+    <p>This is the starting tag for a paragraph text. It automatically fills the entire line of the webpage
+    which can be changed through CSS styling.</p>
+    <h2><span class="pl-kos">&lt;/</span><span class="pl-ent">p</span><span class="pl-kos">&gt;</span></h2>
+    <p>This is the ending tag for a paragraph text. It indicates the end of the paragraph. This tag is necessary
+    for every time there is a starting paragraph tag, or there will be an error in your code.</p>
+    <h2><span class="pl-kos">&lt;</span><span class="pl-ent">a<span class="pl-kos">&gt;<span class="pl-kos">&lt;/</span><span class="pl-ent">a</span><span class="pl-kos">&gt;</span></h2>
+    <p>This is the tag used to input a link into a webpage. In the above snippet it is shown as a child tag
+    of the paragraph tag. You can tell that it is a child from the indentation of the lines which show hierarchy
+  and it is within the opening and closing paragraph tag.</p>
+    <h2>Attributes Within the Link Tag</h2>
+    <h3><span class="pl-c1">href</span>="<span class="pl-s">https://google.com</span>"</h3>
+    <p>The href attribute is the URL that tells the browser where to go. It holds the web address to redirect the user
+    to  the target link.</p>
+    <h3><span class="pl-c1">id</span>="<span class="pl-s">the-best-link</span>"</h3>
+    <p>The id attribute is used to specify the object to a name that is unique to that object. It is important to
+    note that you cannot have more than one element with the same id.</p>
+    <h3><span class="pl-c1">class</span>="<span class="pl-s">banana</span>"</h3>
+    <p>The class attribute is used to specify an overarching type name to an object/element. It is used to group
+    different objects to a class name.</p>
+    <h3><span class="pl-c1">target</span>="<span class="pl-s">_blank</span>"</h3>
+    <p>The target attribute in a link tag specifies where the linked document is being opened to.</p>
+  </body>
+</html>
