@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic CSS</title>
+    <style>
+      body {
+        font-family: fantasy;
+        font-size:30px;}
+        img {
+          width: 40%;
+          border: 50px;
+          border-style: groove;
+        }
+      h1 {font-size:100px;
+        color:white;
+        background-image: url('https://www.rd.com/wp-content/uploads/2020/03/GettyImages-1169927868-scaled.jpg?resize=700,466');
+        text-transform: uppercase;}
+      p {
+        background-color: #fbceb1;
+        color:white;}
+        h2 {
+          font-weight: bold;
+        }
+      p > a{
+        color:red}
+      ul li{
+        margin: 90px;
+        font-size: 45px;
+        font-style: oblique;
+        list-style-type: circle;
+      }
+      ol li{
+        padding: 5px;
+      }
+      .paragraph {
+        color: #000080;
+      }
+      #randomParagraph{
+        letter-spacing: .5rem;
+        text-align: right;
+        line-height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Basic CSS</h1>
+    <p class="paragraph">This is pasted from the first paragraph of
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator" target="_blank">
+        mdn web docs
+      </a>:
+      <br>
+      The descendant combinator — typically represented by a single space (" ")
+      character — combines two selectors such that elements matched by the
+      second selector are selected if they have an ancestor (parent, parent's
+      parent, parent's parent's parent, etc.) element matching the first
+      selector. Selectors that utilize a descendant combinator are called
+      descendant selectors.
+    </p>
+    <ol>
+      <li>square</li>
+      <li>pentagon</li>
+      <li>hexagon</li>
+    </ol>
+    <h2 class="paragraph">List of Websites from Useless Websites</h2>
+    <ul>
+      <li><a href="https://hooooooooo.com/" target="_blank">Hey Ho</a></li>
+      <li><a href="https://longdogechallenge.com/" target="_blank">Long Doge Challenge</a></li>
+      <li><a href="https://floatingqrcode.com/" target="_blank">Floating QR Code</a></li>
+    </ul>
+    <p id="randomParagraph"> The following paragraoh was
+      created by <a href="https://randomwordgenerator.com/paragraph.php">
+        Random Paragraph Generator.
+      </a>The opened package of potato chips held the
+      answer to the mystery. Both detectives looked at it but failed to realize
+      it was the key to solve the crime. They passed by it assuming it was
+      random trash ensuring that the case would never be solved.</p>
+    <img src="assets/img/FIRE.jpeg" alt="A bon fire">
+    <img src="assets/img/SolomonsSunset.jpeg" alt="A sunset with a bridge in the background">
+  </body>
+</html>

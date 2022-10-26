@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Basic Tags</title>
+    <style>
+      .redText{
+
+      }
+    </style>
   </head>
   <body>
     <h1>Basic Tags</h1>
-    <section>
-      <h2>Block-Level containers</h2>
+    <section id="block-level">
+      <h2 class="redText">Block-Level containers</h2>
       <p>This text is contained inside a paragraph element. As you can see the
       paragraph element spans the entire column it is in. In this case, this
     page is a single column website thus the paragraph spans the entire width of
@@ -26,8 +31,8 @@
       So, it is text that will be written exactly as it is in the HTML file.
     You can check out the code for this page using inspect to see what I mean.</pre>
     </section>
-    <section>
-      <h2>Inline Text</h2>
+    <section id="inline">
+      <h2 class="redText">Inline Text</h2>
       <em>This text is in the em elements of html. This means that the
       text is italicized, as you can see.</em>
       <i>This is text in the i element of html. This has the same effects as
@@ -38,29 +43,28 @@
       the text is important.</strong>
       <b>Similarly this text is bolded as well. However, this text is written
       in a b element which is used to change the appearance but does not signify
-      an type of importance in relation to the words around it.</b> <br>
+      an type of importance in relation to the words around it.</b>
       <code>This is what text looks like in a code tag. </code>
-
     </section>
-    <section>
+    <section id="otherInline">
       <h2>Others</h2>
       <a href="https://www.randomlists.com/urls">This is a an a elment to show links. Here is a random link</a>
       <img src="https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=" alt="Hot Air Balloon with mountains and water in the valley">
-      <h1>This text is in h1</h1>
+      <h1 class="redText">This text is in h1</h1>
       <h2>This text is in h2</h2>
       <h3>This text is in h3</h3>
       <h4>This text is in h4</h4>
       <h5>This text is in h5</h5>
       <h6>This text is in h6</h6>
     </section>
-    <section>
+    <section id="lists">
       <h2>Lists</h2>
       List of School Supplies
       <ul>
         <li>notebooks</li>
         <li>pencil</li>
         <li>computer</li>
-        <li>pens</li>
+        <li class="redText">pens</li>
         <li>eraser</li>
         <li>charger</li>
       </ul>
@@ -74,7 +78,7 @@
         <li>blue</li>
         <li>yellow</li>
         <li>pink</li>
-        <ul>
+        <ul class="redText">
           <li>white and red</li>
         </ul>
         <li>magenta</li>
@@ -113,7 +117,7 @@
         <li>Sleep</li>
       </ol>
     </section>
-    <section>
+    <section id="tables">
       <h2>Tables</h2>
       <table>
         <tr>
