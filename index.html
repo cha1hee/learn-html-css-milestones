@@ -26,10 +26,28 @@
         <a href="basic-tag-styles.html">basic tag styles</a>
       </div>
       <div class="col-sm-12 col-md-4">
-        <p></p>
+        <input class="form-control form-control-lg" type="text" placeholder="you can type here">
+        <label for="favAnimal" class="form-label">Pick your favorite Animal:</label>
+        <select class="form-select" id="favAnimal">
+        <option selected>Select Animal</option>
+        <option value="1">Cat</option>
+        <option value="2">Dog</option>
+        <option value="3">Hamster</option>
+      </select>
+      <label for="ageRange" class="form-label">Select your age:</label>
+      <form>
+        <input id = "ageRange" type="range" name="amountRange" min="0" max="100" value="0" oninput="this.form.amountInput.value=this.value" />
+        <input type="number" name="amountInput" min="0" max="100" value="0" oninput="this.form.amountRange.value=this.value" />
+        <!-- code from: https://stackoverflow.com/questions/10004723/html5-input-type-range-show-range-value -->
+      </form>
       </div>
       <div class="col-sm-12 col-md-4">
-        <p></p>
+        <p>
+          <blockquote cite="https://brutalist-web.design/">
+            "A website is about giving visitors content to enjoy and ways to interact with you."
+          </blockquote>
+           -David Bryant Copeland from "Guidelines for Brutalist Web Design"
+        </p>
       </div>
     </div>
   </div>
